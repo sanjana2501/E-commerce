@@ -1,0 +1,72 @@
+body {
+  background-color: #ffeaea;
+  font-family: Arial, sans-serif;
+}
+
+/* Center the login box */
+.container {
+  width: 320px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin: 120px auto;
+}
+
+.container h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Each input row */
+.input-row {
+  margin-bottom: 15px;
+}
+
+/* Label and input on same line */
+label {
+  display: inline-block;
+  width: 90px;
+  font-size: 14px;
+  color: #444;
+}
+
+input {
+  width: 180px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Button styling */
+button {
+  display: block;
+  width: 100%;
+  background-color: #ff7676;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+}
+
+.head{
+    text-align:center;
+    padding:20px;
+    
+}
+.highlights {
+  background:rgb(246,206,5);
+  padding:40px;
+  margin:60px auto;
+  width:80%;
+  text-align:center;
+  border-radius:12px;
+}

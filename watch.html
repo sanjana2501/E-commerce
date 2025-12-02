@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches</title>
+    <link rel="stylesheet" type="text/css" href="watch.css">
+</head>
+<body>
+    <header>
+        <h1>🛍 My Shop</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <section>
+        <div class="box">
+            <img src="watch1.jpg" width="200" height="200">
+            <center>Leather Watch</center>
+            <center>33.72$</center>
+            <center><button onclick="addToCart('Leather Watch', 33.72)">Add To Cart</button></center>
+        </div>
+        <div class="box">
+            <img src="watch2.jpg" width="200" height="200">
+            <center>Golden Watch</center>
+            <center>$100.42</center>
+            <center><button onclick="addToCart('Golden Watch', 100.42)">Add To Cart</button></center>
+        </div>
+        <div class="box">
+            <img src="watch3.jpg" width="200" height="200">
+            <center>Smart Band</center>
+            <center>$50.98</center>
+            <center><button onclick="addToCart('Smart Band', 50.98)">Add To Cart</button></center>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

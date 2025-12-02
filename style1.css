@@ -1,0 +1,182 @@
+body{
+    border:0;
+    font-family:"roboto";
+    background-color:bisque;
+}
+header{
+    background-color: black;
+    color:white;
+    padding:15px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    
+}
+
+nav a{
+    color:white;
+    margin:0px 20px;
+    text-decoration:none;
+    font-size:20px;
+}
+
+.main{
+    background-color:brown;
+    color:white;
+    padding:50px;
+    text-align:center;
+}
+
+.btn{
+    display: inline-block;
+    background-color:beige;
+    color:black;
+    text-decoration:none;
+    padding:10px;
+    border-radius:10px;
+    font-size:20px;
+    margin-top:30px;
+}
+
+footer{
+    background-color:black;
+    color:white;
+    padding:20px;
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.product {
+    background-color:white;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    padding: 15px;
+    overflow:hidden;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 0;
+    flex-wrap:wrap;
+}
+
+.button{
+    background-color:lightcoral;
+    border-radius:5px;
+}
+
+.containerimg {
+  width: 100%;
+  height: 150px;
+  object-fit: contain; 
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.cart-container {
+    text-align:center;
+    background-color:rgb(223, 119, 119);
+    display:block;
+    padding: 120px;
+    align-items:center;
+}
+
+.login {
+  text-align: center;
+  padding: 20px;
+  background-color: bisque;
+}
+
+.head {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.button1 {
+  border-radius: 10px;
+  background-color: lightcoral;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: crimson;
+}
+.btn{
+    display: inline-block;
+    color: black;
+    background-color: #ddd;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.highlights {
+  background:rgb(246,206,5);
+  padding:40px;
+  margin:60px auto;
+  width:80%;
+  text-align:center;
+  border-radius:12px;
+}
+.highlights h2{
+  font-size:25px;
+  margin-bottom:20px;
+}
+.highlights ul {
+  list-style:none;
+}
+.highlights ul li {
+  font-size:18px;
+  padding:8px;
+}
+.box {
+  background-color: white;
+  color:black;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+#user.display{
+  position:absolute;
+  right:20px;
+  top:20px;
+  font-weight:bold;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.welcome-text {
+    margin-left: auto;
+    color: white;
+    font-size: 18px;
+}
+header {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+

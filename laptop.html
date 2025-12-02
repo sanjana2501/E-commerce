@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptops</title>
+    <link rel="stylesheet" type="text/css" href="laptop.css">
+</head>
+<body>
+    <header>
+        <h1>🛍 My Shop</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <section>
+        <div class="box">
+            <img src="laptop1.jpg" width="200" height="200">
+            <center>Dell Laptop</center>
+            <center>333.72$</center>
+            <center><button onclick="addToCart('Dell Laptop', 333.72)">Add To Cart</button></center>
+        </div>
+        <div class="box">
+            <img src="laptop2.jpg" width="200" height="200">
+            <center>Apple Laptop</center>
+            <center>$600.42</center>
+            <center><button onclick="addToCart('Apple Laptop', 600.42)">Add To Cart</button></center>
+        </div>
+        <div class="box">
+            <img src="laptop3.jpg" width="200" height="200">
+            <center>Asus Gaming Laptop</center>
+            <center>$350.98</center>
+            <center><button onclick="addToCart('Asus Gaming Laptop', 350.98)">Add To Cart</button></center>
+        </div>
+        
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
